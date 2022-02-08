@@ -70,11 +70,10 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0-impl \
-    audio.a2dp.default \
     audio.usb.default \
     audio.primary.universal7870_32 \
     audio.r_submix.default \
-    libtinycompress 
+    libtinycompress
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
