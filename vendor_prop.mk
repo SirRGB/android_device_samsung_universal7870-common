@@ -42,11 +42,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     debug.hwc.skip_dma_types=0,2 \
     debug.hwc.force_gpu=1 \
-    debug.sf.latch_unsignaled=1 \
     debug.sf.hw=1 \
     debug.composition.type=gpu
 
-# Location 
+# Location
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.location.osnlp.package=com.google.android.gms \
     ro.location.osnlp.region.package=""
