@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     libebtc
-    
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -215,14 +215,10 @@ PRODUCT_PACKAGES += \
     init.wifi.rc \
     ueventd.samsungexynos7870.rc
 
-# Recorder
-PRODUCT_PACKAGES += \
-    Recorder
-
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze
-    
+
 # Seccomp_policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
@@ -236,7 +232,7 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.samsung
-    
+
 # Touchscreen
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/AVRCP.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/AVRCP.idc \
@@ -252,7 +248,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera_shim \
     libstagefright_shim \
     libcutils_shim
-    
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
