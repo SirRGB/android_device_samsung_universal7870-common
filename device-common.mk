@@ -195,6 +195,10 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-service.exynos
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5 \
@@ -228,6 +232,12 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# Shims
+PRODUCT_PACKAGES += \
+    libexynoscamera_shim \
+    libstagefright_shim \
+    libcutils_shim
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.samsung
@@ -241,12 +251,6 @@ PRODUCT_COPY_FILES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
-
-# Shims
-PRODUCT_PACKAGES += \
-    libexynoscamera_shim \
-    libstagefright_shim \
-    libcutils_shim
 
 # USB
 PRODUCT_PACKAGES += \
