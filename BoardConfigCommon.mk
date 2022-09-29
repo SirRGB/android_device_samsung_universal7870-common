@@ -66,6 +66,7 @@ TARGET_LINUX_KERNEL_VERSION := 3.18
 
 # Kernel config
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # HIDL
 DEVICE_MATRIX_FILE := $(LOCAL_PATH)/configs/compatibility_matrix.xml
